@@ -26,7 +26,7 @@ int main(){
     Volume v;
     int l, h, w, r, n;
     cout<<"Enter the number of length, high, width, redius and number : ";
-    cin>>l>>h>>w>>r>>n;
+    cin>>l>>h>>w>>r>>n; 
     cout<<"\nVolume of rectangle is "<<v.volume(l, h, w)<<endl;
     cout<<"\nVolume of cylinder is "<<v.volume(r, h)<<endl;
     cout<<"\nVolume of cub is "<<v.volume(n)<<endl;

@@ -12,9 +12,9 @@ class Time{
 
 void Time::getTime(){
     cout<<"Enter time "<<endl;
-    cout<<"Hours ?";
+    cout<<"Hourses ?";
     cin>>hourses;
-    cout<<"Minute ?";
+    cout<<"Minutes ?";
     cin>>minutes;
 }
 
